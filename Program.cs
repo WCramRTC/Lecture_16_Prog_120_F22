@@ -15,10 +15,11 @@ namespace Lecture_16_Prog_120_F22
         } // Main
 
     } // class
-    
+
+    // Nested For Loops
+    // Multi Dimentional Arrays
     // Discuss try parse and expand on try catch
     // Specificity in if statements
-    // Github usage, branches
-    // Flowcharts
+
 
 } // namespace
