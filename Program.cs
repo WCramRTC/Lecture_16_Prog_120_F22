@@ -27,7 +27,7 @@ namespace Lecture_16_Prog_120_F22
         // 1,0 0,1
         // 1,0 0,1
 
-        static int[][] jaggedArrays = new int[10][];
+        static int[][] jaggedArrays = new int[3][];
         // 1 2 3 4 5 6 7
         // 7 5 3 1
         // 9 5 7 3 2 1 4 7 8 9  8 5 4 3 2
@@ -39,14 +39,15 @@ namespace Lecture_16_Prog_120_F22
             Random rand = new Random();
             jaggedArrays[0] = new int[5];
             jaggedArrays[1] = new int[9];
-            jaggedArrays[3] = new int[3];
+            jaggedArrays[2] = new int[3];
 
-            for (int i = 0; i < jaggedArrays.GetLength(0); i++)
+            for (int i = 0; i < jaggedArrays.Length; i++)
             {
-                for (int j = 0; j < jaggedArrays.GetLength(1); j++)
+                for (int j = 0; j < jaggedArrays[i].Length; j++)
                 {
-                    Console.WriteLine(jaggedArrays[i][j] + " ");
+                    Console.Write(jaggedArrays[i][j] + " ");
                 }
+                Console.WriteLine();
             }
 
             //// Rows
